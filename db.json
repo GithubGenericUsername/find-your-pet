@@ -1,12 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "owners": [
+    {
+      "id": 1,
+      "name": "Damien",
+      "latitude": 48.24861586290228,
+      "longitude": 16.38286965584704
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "pets": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "name": "Jackie",
+      "latitude": 48.22214514499821,
+      "longitude": 16.391368521939718
+    }
+  ],
+  "traces": [
+    {
+      "id": 1,
+      "petId": 1,
+      "latitude": 48.21949517311078,
+      "longitude": 16.41422414802554
+    }
   ],
   "profile": {
     "name": "typicode"
